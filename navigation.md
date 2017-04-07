@@ -44,8 +44,6 @@
   * [Start Here](pages/firststeps.md)
   - - - -
   * [Vagrant (Windows)](pages/vagrantwin.md)
-  * [Script Test ](pages/test)
-  * [Script Test ](pages/test.html)
   * [Vagrant (MacOS(X)/Ubuntu)](pages/vagrant.md)
   * [GitHub and Markdown](pages/githubandmarkdown.md)
   * [BeLL-Apps](pages/bellapps.md)
@@ -54,6 +52,8 @@
   * [Nation BeLL](pages/nation.md)
   - - - -
   * [Community Login](http://127.0.0.1:5985/apps/_design/bell/MyApp/index.html)
+  * [Script Test ](pages/test)
+  * [Script Test ](pages/test.html)
 
 [Teams]()
   
