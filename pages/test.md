@@ -135,8 +135,8 @@ request.send()
   </script>
  <style>
  body {background-color: white;}
-h1   {color: blue;}
-p    {color: red;}
+h1   {color: black;}
+p    {color: black;}
 
 .center {
     margin: auto;
