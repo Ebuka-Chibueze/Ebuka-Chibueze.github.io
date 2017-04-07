@@ -44,7 +44,7 @@
   * [Start Here](pages/firststeps.md)
   - - - -
   * [Vagrant (Windows)](pages/vagrantwin.md)
-  * [Script Test ](https://github.com/Ebuka-Chibueze/Ebuka-Chibueze.github.io/blob/master/pages/test.md)
+  * [Script Test ](pages/test)
   * [Vagrant (MacOS(X)/Ubuntu)](pages/vagrant.md)
   * [GitHub and Markdown](pages/githubandmarkdown.md)
   * [BeLL-Apps](pages/bellapps.md)
