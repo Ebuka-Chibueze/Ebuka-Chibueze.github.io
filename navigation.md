@@ -52,8 +52,7 @@
   * [Nation BeLL](pages/nation.md)
   - - - -
   * [Community Login](http://127.0.0.1:5985/apps/_design/bell/MyApp/index.html)
-  * [Script Test ](pages/test)
-  * [Script Test ](pages/test.html)
+  * [Track Progress](pages/track-progress.html)
 
 [Teams]()
   
