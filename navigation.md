@@ -11,7 +11,7 @@
   -- (Read: http://dynalon.github.io/mdwiki/#!customizing.md#Theme_chooser)
   -->
 
-[gimmick:theme (inverse: false)](flatly)
+[gimmick:theme (inverse: false)](bootstrap)
 
 
 <!--
@@ -43,8 +43,7 @@
 
   * [Start Here](pages/firststeps.md)
   - - - -
-  * [Vagrant (Windows)](pages/vagrantwin.md)
-  * [Vagrant (MacOS(X)/Ubuntu)](pages/vagrant.md)
+  * [Vagrant](pages/vagrant.md)
   * [GitHub and Markdown](pages/githubandmarkdown.md)
   * [BeLL-Apps](pages/bellapps.md)
   * [Git Repositories](pages/gitandrepositories.md)
@@ -54,13 +53,14 @@
   * [Community Login](http://127.0.0.1:5985/apps/_design/bell/MyApp/index.html)
   * [Track Progress](pages/track-progress.html)
 
-[Teams]()
+[Projects]()
   
   * [Intern Orientation](pages/internorientation.md)
   - - - -
   * [Automated Testing](pages/automatedtesting.md)
   * [Crowdin Integration](pages/crowdinintegration.md)
-  * [Simple Install](pages/simpleinstall.md)
+  * [Windows Installer](pages/innoproject.md)
+  * [Simple Dev Install](pages/simpleinstall.md)
   * [HTML Resources](pages/htmlresources.md)
   * [Take Home](pages/takehome.md)
 

@@ -1,57 +1,32 @@
-[Google Doc](https://docs.google.com/document/d/1JUePcj0W9mg6Ea__lakJK-Zd6ZFXchmqdbztLqIU4Cs/edit#heading=h.ieliyf4f8pjx)
+# Take Home Application
 
-#Android "Take Home" Bell application development
+## Welcome to Take Home
 
-##Project Setup
-To be able to debug / repackage / build on the android mobile application, you need to:
+The [Take Home Application]( https://github.com/open-learning-exchange/take-home) is an Android application using Java, CouchDB and JSON. The goal of the project is to mimic BeLL Apps on a mobile scale to allow users to use an Android device to interact with MyBeLL.
 
-- download and install the most recent official IDE for android: [Android Studio](https://developer.android.com/studio/index.html) 
+In here you will find step by step guides to getting the Take Home Application up and running in Android Studio. You will also learn how to build deployment environments to test your code. There are two places where you can try out your code: **Android Device Emulator** and **Real Android Device**. We prefer to test our code on real android device because it is the same environment as our end user. You can figure out how your app performs when there is no internet connection or other circumstances that Android Device Emulator is not supported (read more [here](https://developer.android.com/studio/run/emulator.html)). Once you are setup, please read the [Take Home Documentation](takeHomeDocumentation.md) so you can understand the flow of the application.
 
-- Verify which version of the JDK you have: open a command line and type javac -version. If the JDK is not available or the version is lower than 1.8, download the [Java SE Development Kit 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
+## Take Home Intern Day-to-Day
+[Take Home Intern Day-to-Day](takeHomeInternDayToDay.md)
 
-> MAC Users : There are, however, known stability issues in Android Studio on Mac when using JDK 1.8. Until these issues are resolved, you can improve stability by downgrading your JDK to an older version (but no lower than JDK 1.6).
+In this guide you will find day-to-day things you should be doing/considering every time you commit some time to your internship as a mobile intern.
 
-- Launch Android Studio after installation.
+## Android Studio Setup
+[Android Studio Setup](takeHomeAndroidStudioSetup.md)
 
-- Select whether you want to import previous Android Studio settings, then click OK.
+You will be using Android Studio to develop the Take Home Application. Within this guide, you will learn what is needed to get Android Studio installed and the application up and running.
 
----
+## Android Device Setup
+[Android Device Setup](takeHomeDeviceSetup.md)
 
-The Android Studio Setup Wizard guides you through the rest of the setup, which includes downloading Android SDK components that are required for development. 
- We only need SDK 4.4 and above. You can install as many SDK’s packages as you wish to. Note that the packages are huge and therefore precaution must be taken with HDD available space in mind.
+One of the deployment environments you will be testing on is an actually Android device. These steps will guide you to getting the Take Home Applicaiton running on an actually Android Device.
 
-![AndroidSDKManager](uploads/images/AndroidSDKManager.png)
+## Android Device Emulator Setup
+[Android Device Emulator Setup](takeHomeEmulatorSetup.md)
 
+The second deployment environment that you are going to be working in is Android Studio's Android device emulator. These steps will guide you to get the emulator up and running.
 
-In a terminal / console of your choosing, navigate into the working directory of Android studio and git clone the “take-home“ repository at https://github.com/open-learning-exchange/take-home.git
-Run Android studio. Select New from the file menu and select import project.
-Navigate to Android studio -> take-home and select the settings.gradle file to import and open the project.
+## Take Home Documentation
+[Take Home Documentation](takeHomeDocumentation.md)
 
->@todo : 
->http://stackoverflow.com/questions/37397810/android-studio-unable-to-run-avd
->https://www.virtualbox.org/ticket/14294 NB Virtualbox version needs lower equal 4.3.28
-
-- Click on the run button located at the top of your IDE. You will be prompted to Select Deployment Target. Select “Create New Emulator” button.
-
-![AndroidDeploymentTarget](uploads/images/AndroidDeploymentTarget.png)
-
-- Select a device definition from the list provided and click the next button
-           
-![AndroidHardwareSelection](uploads/images/AndroidHardwareSelection.png)
-
-- Select system image from the list shown. API Level 22 and above works best. Preferably, choose 22 with Android 5.1. Click next to continue.
-	
-![AndroidMarshmellowSystem](uploads/images/AndroidMarshmellowSystem.png)
-
-- Name the emulator and specify the necessary configuration as shown below. Click on finish to save the emulator. 
-	
-![AndroidVirtualDevice](uploads/images/AndroidVirtualDevice.png)
-
-- You will be presented with the “Select Deployment Target” dialogue again . Choose the emulator we just created and click on the “OK” button.
-
-![AndroidDeploymentTarget](uploads/images/AndroidDeploymentTarget.png)
-
-- The emulator will be opened with application installed. You have successfully configured the development environment to get you started. 
-
-## Understanding the flow of the android application
-WIP
+This is a detailed documentation of the Take Home Application. In here you will find detailed summaries of the java class files and methods used with in the application to help you understand and contribute to the Take Home Application.
